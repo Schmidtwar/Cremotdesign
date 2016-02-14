@@ -6,4 +6,3 @@ This is a fully free framework that you only need to download and start using. I
 
 ### Different colors
 You can choose many different colors that fits your website, I have done when your change color, the text/background/border change too.
-
