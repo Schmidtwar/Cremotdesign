@@ -1,4 +1,6 @@
-
+a {
+  text-decoration: none;
+}
 /* CMD-BUTTON-1 RIGHT */
 #sky-button-1-r {
   display: block;
@@ -12,7 +14,6 @@
   border-bottom-left-radius: 10px;
   border-top-right-radius: 10px;
   font-size: 1.3em;
-  text-decoration: none;
   text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0);
   color:white;
 }
@@ -43,7 +44,6 @@
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
   font-size: 1.3em;
-  text-decoration: none;
   text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0);
   color:white;
 }
@@ -99,7 +99,6 @@
   color:rgb(208, 208, 208);
   background: rgb(235, 235, 235);
   box-shadow: inset 0px 0px 15px rgb(255, 255, 255), 0px 0px 4px;
-  text-decoration: none;
 }
 #sky-button-2:active {
   transform: scale(1.02);
@@ -149,3 +148,87 @@
   background: rgb(1, 174, 238);
   box-shadow: 0px 0px 5px rgb(0, 0, 0);
 }
+
+
+/* BUTTONS 3 --------> */
+#sky-button-3 {
+  display: block;
+  width: 170px;
+  height: 65px;
+  line-height: 65px;
+  border-radius: 25%;
+  text-align: center;
+  border: 2px solid rgba(252, 144, 0, 0.65);
+  color:orange;
+  font-size: 1.3em;
+}
+
+#sky-button-3:hover {
+  background: rgba(255, 193, 130, 0.65);
+  color:rgb(191, 97, 3);
+}
+
+#sky-button-3:active {
+  color:rgba(255, 74, 6, 0.65);
+}
+
+/* DIFFERENT COLOR */
+
+/* BLUE COLOR */
+#sky-button-3[color="Blue"] {
+  border: 2px solid rgba(1, 171, 255, 0.65);
+  color:rgb(1, 171, 255);
+}
+
+#sky-button-3[color="Blue"]:hover {
+  background: rgba(143, 215, 251, 0.65);
+  color:rgb(0, 106, 193);
+}
+#sky-button-3[color="Blue"]:active {
+  color:rgb(0, 11, 50);
+}
+
+/* GREEN COLOR */
+
+#sky-button-3[color="Green"] {
+  border: 2px solid rgba(52, 255, 1, 0.65);
+  color:rgb(0, 162, 6);
+}
+
+#sky-button-3[color="Green"]:hover {
+  background: rgba(187, 255, 170, 0.65);
+  color:rgb(0, 184, 29);
+}
+#sky-button-3[color="Green"]:active {
+  color:rgb(0, 56, 2);
+}
+
+/* RED COLOR */
+#sky-button-3[color="Red"] {
+  border: 2px solid rgba(255, 1, 1, 0.65);
+  color:rgb(247, 22, 0);
+}
+
+#sky-button-3[color="Red"]:hover {
+  background: rgba(254, 184, 184, 0.65);
+  color:rgb(182, 56, 44);
+}
+#sky-button-3[color="Red"]:active {
+  color:rgb(106, 9, 0);
+}
+
+/* GRAY COLOR */
+
+#sky-button-3[color="Gray"] {
+  border: 2px solid rgba(173, 173, 173, 0.65);
+  color:rgb(166, 166, 166);
+}
+
+#sky-button-3[color="Gray"]:hover {
+  background: rgba(232, 232, 232, 0.65);
+  color:rgb(124, 124, 124);
+}
+#sky-button-3[color="Gray"]:active {
+  color:rgb(56, 56, 56);
+}
+
