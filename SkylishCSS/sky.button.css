@@ -1,5 +1,5 @@
 /* Version 0.02a
-Copyright by: Cremotdesign.com @ 2016 
+Copyright by: Cremotdesign.com @ 2016
 Github: https://github.com/Schmidtwar/SkylishCSS
 */
 
@@ -237,3 +237,77 @@ a {
   color:rgb(56, 56, 56);
 }
 
+/* BUTTONS 4 */
+#sky-button-4 {
+  display: block;
+  width: 200px;
+  height: 45px;
+  background: -webkit-linear-gradient(top, rgb(232, 232, 232), rgb(213, 213, 213));
+  background: -ms-linear-gradient(top, rgb(232, 232, 232), rgb(213, 213, 213));
+  background: linear-gradient(top, rgb(232, 232, 232), rgb(213, 213, 213));
+  text-align: center;
+  line-height: 45px;
+  box-shadow: 0px 0px 3px;
+  color:rgb(47, 47, 47);
+}
+#sky-button-4:hover {
+  font-size: 1.1em;
+  color: rgb(144, 144, 144);
+}
+
+#sky-button-4:active {
+  color: rgb(46, 46, 46);
+}
+
+/* DIFFERENT COLORS */
+
+/* BLUE */
+#sky-button-4[color="Blue"] {
+  background: -webkit-linear-gradient(top, rgb(0, 115, 222), rgb(1, 132, 238));
+  background: -ms-linear-gradient(top, rgb(0, 115, 222), rgb(1, 132, 238));
+  background: linear-gradient(top, rgb(0, 115, 222), rgb(1, 132, 238));
+  color:rgb(73, 211, 255);
+  box-shadow: 0px 0px 3px rgb(0, 0, 0);
+
+}
+#sky-button-4:hover[color="Blue"] {
+  color:rgb(148, 236, 255);
+}
+
+#sky-button-4:active[color="Blue"] {
+  color:rgb(73, 211, 255);
+}
+
+/* RED COLOR */
+#sky-button-4[color="Red"] {
+  background: -webkit-linear-gradient(top, rgb(179, 0, 0), rgb(255, 87, 87));
+  background: -ms-linear-gradient(top, rgb(179, 0, 0), rgb(255, 87, 87));
+  background: linear-gradient(top, rgb(179, 0, 0), rgb(255, 87, 87));
+  color:rgb(255, 194, 194);
+  box-shadow: 0px 0px 3px rgb(0, 0, 0);
+
+}
+#sky-button-4:hover[color="Red"] {
+  color:rgb(255, 191, 191);
+}
+
+#sky-button-4:active[color="Red"] {
+  color:rgb(255, 145, 145);
+}
+
+/* GREEN */
+#sky-button-4[color="Green"] {
+  background: -webkit-linear-gradient(top, rgb(41, 179, 0), rgb(0, 227, 30));
+  background: -ms-linear-gradient(top, rgb(41, 179, 0), rgb(0, 227, 30));
+  background: linear-gradient(top, rgb(41, 179, 0), rgb(0, 227, 30));
+  color:rgb(255, 255, 255);
+  box-shadow: 0px 0px 3px rgb(0, 0, 0);
+
+}
+#sky-button-4:hover[color="Green"] {
+  color:rgb(187, 255, 184);
+}
+
+#sky-button-4:active[color="Green"] {
+  color:rgb(133, 255, 108);
+}
