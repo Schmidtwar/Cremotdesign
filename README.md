@@ -1,4 +1,4 @@
-# SkyCSS Framework 
+# SkylishCSS Framework 
 Version 0.02a -  Copyright by Creative,Motivation & Design // www.cremotdesign.com // @ 2016
 
 Framework that are easy too use and get that you need for your website. Buttons, Animation & Navigation & more. 
