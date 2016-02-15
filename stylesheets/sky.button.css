@@ -1,0 +1,308 @@
+a {
+  text-decoration: none;
+}
+/* CMD-BUTTON-1 RIGHT */
+#sky-button-1-r {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  padding: 5px;
+  text-align: center;
+  background: rgb(250, 162, 46);
+  box-shadow:  1px 1px 3px rgb(0, 0, 0);
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 1.3em;
+  text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0);
+  color:white;
+}
+
+#sky-button-1-r:active {
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+}
+
+#sky-button-1-r:hover {
+  background: -webkit-linear-gradient(top, rgb(255, 191, 107), rgb(254, 153, 34));
+  background: linear-gradient(top, rgb(255, 191, 107), rgb(254, 153, 34));
+
+}
+
+/* CMD-BUTTON-1 LEFT */
+
+#sky-button-1-l {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  padding: 5px;
+  text-align: center;
+  background: rgb(250, 162, 46);
+  box-shadow:  1px 1px 3px rgb(0, 0, 0);
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font-size: 1.3em;
+  text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0);
+  color:white;
+}
+
+#sky-button-1-l:active {
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+}
+
+#sky-button-1-l:hover {
+  background: -webkit-linear-gradient(top, rgb(255, 191, 107), rgb(254, 153, 34));
+}
+
+/* DIFFERENT COLOR */
+
+/* RED COLOR */
+#sky-button-1-r[color="Red"], #sky-button-1-l[color="Red"] {
+  background: rgb(161, 0, 0);
+}
+#sky-button-1-r[color="Red"]:hover, #sky-button-1-l[color="Red"]:hover {
+  background: -webkit-linear-gradient(top, rgb(198, 0, 0), rgb(161, 0, 0));
+  background: linear-gradient(top, rgb(198, 0, 0), rgb(161, 0, 0));
+}
+
+/* GREEN COLOR */
+#sky-button-1-r[color="Green"], #sky-button-1-l[color="Green"] {
+  background: rgb(82, 198, 2);
+}
+#sky-button-1-r[color="Green"]:hover, #sky-button-1-l[color="Green"]:hover {
+  background: -webkit-linear-gradient(top, rgb(96, 231, 3), rgb(82, 198, 2));
+  background: linear-gradient(top, rgb(198, 0, 0), rgb(161, 0, 0));
+}
+
+/* BLUE COLOR */
+#sky-button-1-r[color="Blue"], #sky-button-1-l[color="Blue"] {
+  background: rgb(3, 134, 199);
+}
+#sky-button-1-r[color="Blue"]:hover, #sky-button-1-l[color="Blue"]:hover {
+  background: -webkit-linear-gradient(top, rgb(0, 156, 233), rgb(3, 134, 199));
+  background: linear-gradient(top, rgb(0, 156, 233), rgb(3, 134, 199));
+}
+
+/* BUTTON 2 -----> */
+#sky-button-2 {
+  display: block;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  text-shadow: 0.5px 0.5px 0.5px rgb(62, 62, 62);
+  font-size: 1.2em;
+  color:rgb(208, 208, 208);
+  background: rgb(235, 235, 235);
+  box-shadow: inset 0px 0px 15px rgb(255, 255, 255), 0px 0px 4px;
+}
+#sky-button-2:active {
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  font-size: 1.15em;
+}
+#sky-button-2:hover {
+  background: rgb(240, 240, 240);
+  color:rgb(106, 106, 106);
+}
+
+/* DIFFERENT COLOR */
+
+/* RED */
+#sky-button-2[color="Red"] {
+  background: rgb(161, 0, 0);
+  box-shadow: inset 0px 0px 15px rgb(255, 255, 255), 0px 0px 4px;
+  color:rgb(250, 216, 216);
+  text-shadow: 0.5px 0.5px 0.5px rgb(0, 0, 0);
+}
+#sky-button-2[color="Red"]:hover {
+  background: rgb(205, 74, 74);
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+/* GREEM */
+#sky-button-2[color="Green"] {
+  background: rgb(0, 161, 6);
+  box-shadow: inset 0px 0px 15px rgb(255, 255, 255), 0px 0px 4px;
+  color:rgb(250, 216, 216);
+  text-shadow: 0.5px 0.5px 0.5px rgb(0, 0, 0);
+}
+#sky-button-2[color="Green"]:hover {
+  background: rgb(0, 200, 7);
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+/* BLUE */
+
+#sky-button-2[color="Blue"] {
+  background: rgb(0, 146, 200);
+  box-shadow: inset 0px 0px 15px rgb(255, 255, 255), 0px 0px 4px;
+  color:rgb(250, 216, 216);
+  text-shadow: 0.5px 0.5px 0.5px rgb(0, 0, 0);
+}
+#sky-button-2[color="Blue"]:hover {
+  background: rgb(1, 174, 238);
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+
+/* BUTTONS 3 --------> */
+#sky-button-3 {
+  display: block;
+  width: 170px;
+  height: 65px;
+  line-height: 65px;
+  border-radius: 25%;
+  text-align: center;
+  border: 2px solid rgba(252, 144, 0, 0.65);
+  color:orange;
+  font-size: 1.3em;
+}
+
+#sky-button-3:hover {
+  background: rgba(255, 193, 130, 0.65);
+  color:rgb(191, 97, 3);
+}
+
+#sky-button-3:active {
+  color:rgba(255, 74, 6, 0.65);
+}
+
+/* DIFFERENT COLOR */
+
+/* BLUE COLOR */
+#sky-button-3[color="Blue"] {
+  border: 2px solid rgba(1, 171, 255, 0.65);
+  color:rgb(1, 171, 255);
+}
+
+#sky-button-3[color="Blue"]:hover {
+  background: rgba(143, 215, 251, 0.65);
+  color:rgb(0, 106, 193);
+}
+#sky-button-3[color="Blue"]:active {
+  color:rgb(0, 11, 50);
+}
+
+/* GREEN COLOR */
+
+#sky-button-3[color="Green"] {
+  border: 2px solid rgba(52, 255, 1, 0.65);
+  color:rgb(0, 162, 6);
+}
+
+#sky-button-3[color="Green"]:hover {
+  background: rgba(187, 255, 170, 0.65);
+  color:rgb(0, 184, 29);
+}
+#sky-button-3[color="Green"]:active {
+  color:rgb(0, 56, 2);
+}
+
+/* RED COLOR */
+#sky-button-3[color="Red"] {
+  border: 2px solid rgba(255, 1, 1, 0.65);
+  color:rgb(247, 22, 0);
+}
+
+#sky-button-3[color="Red"]:hover {
+  background: rgba(254, 184, 184, 0.65);
+  color:rgb(182, 56, 44);
+}
+#sky-button-3[color="Red"]:active {
+  color:rgb(106, 9, 0);
+}
+
+/* GRAY COLOR */
+
+#sky-button-3[color="Gray"] {
+  border: 2px solid rgba(173, 173, 173, 0.65);
+  color:rgb(166, 166, 166);
+}
+
+#sky-button-3[color="Gray"]:hover {
+  background: rgba(232, 232, 232, 0.65);
+  color:rgb(124, 124, 124);
+}
+#sky-button-3[color="Gray"]:active {
+  color:rgb(56, 56, 56);
+}
+
+/* BUTTONS 4 */
+#sky-button-4 {
+  display: block;
+  width: 200px;
+  height: 45px;
+  background: -webkit-linear-gradient(top, rgb(232, 232, 232), rgb(213, 213, 213));
+  background: -ms-linear-gradient(top, rgb(232, 232, 232), rgb(213, 213, 213));
+  background: linear-gradient(top, rgb(232, 232, 232), rgb(213, 213, 213));
+  text-align: center;
+  line-height: 45px;
+  box-shadow: 0px 0px 3px;
+  color:rgb(47, 47, 47);
+}
+#sky-button-4:hover {
+  font-size: 1.1em;
+  color: rgb(144, 144, 144);
+}
+
+#sky-button-4:active {
+  color: rgb(46, 46, 46);
+}
+
+/* DIFFERENT COLORS */
+
+/* BLUE */
+#sky-button-4[color="Blue"] {
+  background: -webkit-linear-gradient(top, rgb(0, 115, 222), rgb(1, 132, 238));
+  background: -ms-linear-gradient(top, rgb(0, 115, 222), rgb(1, 132, 238));
+  background: linear-gradient(top, rgb(0, 115, 222), rgb(1, 132, 238));
+  color:rgb(73, 211, 255);
+  box-shadow: 0px 0px 3px rgb(0, 0, 0);
+
+}
+#sky-button-4:hover[color="Blue"] {
+  color:rgb(148, 236, 255);
+}
+
+#sky-button-4:active[color="Blue"] {
+  color:rgb(73, 211, 255);
+}
+
+/* RED COLOR */
+#sky-button-4[color="Red"] {
+  background: -webkit-linear-gradient(top, rgb(179, 0, 0), rgb(255, 87, 87));
+  background: -ms-linear-gradient(top, rgb(179, 0, 0), rgb(255, 87, 87));
+  background: linear-gradient(top, rgb(179, 0, 0), rgb(255, 87, 87));
+  color:rgb(255, 194, 194);
+  box-shadow: 0px 0px 3px rgb(0, 0, 0);
+
+}
+#sky-button-4:hover[color="Red"] {
+  color:rgb(255, 191, 191);
+}
+
+#sky-button-4:active[color="Red"] {
+  color:rgb(255, 145, 145);
+}
+
+/* GREEN */
+#sky-button-4[color="Green"] {
+  background: -webkit-linear-gradient(top, rgb(41, 179, 0), rgb(0, 227, 30));
+  background: -ms-linear-gradient(top, rgb(41, 179, 0), rgb(0, 227, 30));
+  background: linear-gradient(top, rgb(41, 179, 0), rgb(0, 227, 30));
+  color:rgb(255, 255, 255);
+  box-shadow: 0px 0px 3px rgb(0, 0, 0);
+
+}
+#sky-button-4:hover[color="Green"] {
+  color:rgb(187, 255, 184);
+}
+
+#sky-button-4:active[color="Green"] {
+  color:rgb(133, 255, 108);
+}
