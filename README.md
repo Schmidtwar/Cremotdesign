@@ -5,7 +5,7 @@ Framework that are easy too use and get that you need for your website. Buttons,
 This is a fully free framework that you only need to download and start using. It's easy and smooth commands for use.
 
 # Just add .css file
-  < link rel="stylesheet" href="sky.button.css" type="text/css"  />
+  < link rel="stylesheet" href="sky.main.css" type="text/css"  />
 
 
 
