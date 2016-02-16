@@ -1,0 +1,65 @@
+/* Version 0.02a
+Copyright by: Cremotdesign.com @ 2016
+Github: https://github.com/Schmidtwar/SkylishCSS
+*/
+
+/* NAVIGATION CLASSIC */
+#sky-nav-classic {
+  display: inline-block;
+  width: 100%;
+  min-height: 65px;
+  height: auto;
+  background: rgba(25, 203, 0, 0.5);
+  text-align: center;
+  font-size: 1.3em;
+  border-bottom: solid 2px rgba(31, 179, 0, 0.5);
+  box-shadow: inset 0px 0px 55px rgba(255, 255, 255, 0.64);
+}
+
+#sky-nav-classic li {
+  display: inline-block;
+  line-height: 65px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#sky-nav-classic a {
+  display: inline-block;
+  max-width: 200px;
+  width: 150px;
+  min-height: 65px;
+  line-height: 65px;
+  color: rgb(39, 110, 0);
+}
+
+#sky-nav-classic a:hover {
+  background: rgb(11, 204, 0);
+  color:rgb(188, 255, 152);
+  text-decoration: underline;
+}
+#sky-nav-classic a:active {
+  color:white;
+  text-decoration: none;
+}
+
+/* NAVIGATION CLASSIC COLOR */
+
+/* RED COLOR */
+#sky-nav-classic[color="Red"] {
+  background: rgba(203, 0, 0, 0.5);
+  border-bottom: solid 2px rgba(186, 107, 107, 0.5);
+  box-shadow: inset 0px 0px 55px rgba(255, 255, 255, 0.64);
+}
+#sky-nav-classic[color="Red"] a {
+  color: rgb(110, 0, 0);
+}
+
+#sky-nav-classic[color="Red"] a:hover {
+  background: rgb(218, 88, 88);
+  color:rgb(112, 0, 0);
+  text-decoration: underline;
+}
+
+#sky-nav-classic[color="Red"] a:active {
+  color:rgb(255, 215, 215);
+}
