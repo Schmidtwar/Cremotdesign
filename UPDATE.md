@@ -1,3 +1,12 @@
+## Navigation is added now - 2016-02-16
+Now have I added two "Classic" menu - Navigation. The code looks like this.
+You can read in Docs how to use the Navigation menu.
+
+id="sky-nav-classic" | 
+-------------------- |
+color="Red" |
+
+
 ## Change the .CSS file - 2016-02-15
 Now is the css file imported to one only.
 
