@@ -1,9 +1,10 @@
-/* Version 0.02a
+/* Version 0.03a
 Copyright by: Cremotdesign.com @ 2016
 Github: https://github.com/Schmidtwar/SkylishCSS
 */
 @import url("buttons/sky.button.css");
 @import url("navigations/sky.nav.css");
+@import url("grid/sky.grid.css");
 
 li {
   list-style: none;
