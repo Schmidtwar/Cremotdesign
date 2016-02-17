@@ -1,0 +1,110 @@
+/* CENTER THE GRID  */
+#main-grid-center {
+  width: 100%;
+  height: auto;
+  margin-top: 1%;
+  text-align: center;
+  }
+  /* MAKES GRID TO THE RIGHT */
+  #main-grid-right {
+    width: 100%;
+    height: auto;
+    margin-top: 1%;
+    text-align: right;
+    }
+    /* MAKES GRID TO THE LEFT */
+    #main-grid-left {
+      width: 100%;
+      height: auto;
+      margin-top: 1%;
+      text-align: left;
+      }
+
+/* COL STARTS HERE INLINE */
+#sky-col-10 {
+  display: inline-block;
+  vertical-align: top;
+  width: 10%;
+  height: auto;
+  min-height: 200px;
+  
+}
+#sky-col-20 {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  height: auto;
+  min-height: 200px;
+
+}
+#sky-col-30 {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  height: auto;
+  min-height: 200px;
+
+}
+
+#sky-col-40 {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  height: auto;
+  min-height: 200px;
+
+}
+
+#sky-col-50 {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  height: auto;
+  min-height: 200px;
+
+}
+
+#sky-col-60 {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+  height: auto;
+  min-height: 200px;
+
+}
+
+#sky-col-70 {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  height: auto;
+  min-height: 200px;
+
+}
+
+#sky-col-80 {
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+  height: auto;
+  min-height: 200px;
+
+}
+
+#sky-col-90 {
+  display: inline-block;
+  vertical-align: top;
+  width: 90%;
+  height: auto;
+  min-height: 200px;
+
+}
+
+#sky-col-100 {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+
+}
