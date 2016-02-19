@@ -1,24 +1,24 @@
 ## Grid is added now - 2016-02-18
 Now can you use the Grid system. And added new color for the Navigation classic.
 The value is % of the width.
-
+EDIT: changed to row, instead of col.
 GRID:
-* id="sky-col-10"
-* id="sky-col-20"
-* id="sky-col-30"
-* id="sky-col-40"
-* id="sky-col-50"
-* id="sky-col-60"
-* id="sky-col-70"
-* id="sky-col-80"
-* id="sky-col-90"
-* id="sky-col-100"
+* id="sky-row-10"
+* id="sky-row-20"
+* id="sky-row-30"
+* id="sky-row-40"
+* id="sky-row-50"
+* id="sky-row-60"
+* id="sky-row-70"
+* id="sky-row-80"
+* id="sky-row-90"
+* id="sky-row-100"
 
 You should use: 
 
 < main-grid-center > 
 
-< div id="sky-col-10" > 
+< div id="sky-row-10" > 
 
 < /div> 
 
