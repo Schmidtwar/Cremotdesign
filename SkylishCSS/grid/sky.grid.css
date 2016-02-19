@@ -3,8 +3,10 @@ Copyright by: Cremotdesign.com @ 2016
 Github: https://github.com/Schmidtwar/SkylishCSS
 */
 
+
 /* CENTER THE GRID  */
 #main-grid-center {
+  display: block;
   width: 100%;
   height: auto;
   margin-top: 1%;
@@ -12,6 +14,7 @@ Github: https://github.com/Schmidtwar/SkylishCSS
   }
   /* MAKES GRID TO THE RIGHT */
   #main-grid-right {
+    display: block;
     width: 100%;
     height: auto;
     margin-top: 1%;
@@ -19,97 +22,111 @@ Github: https://github.com/Schmidtwar/SkylishCSS
     }
     /* MAKES GRID TO THE LEFT */
     #main-grid-left {
+      display: block;
       width: 100%;
       height: auto;
       margin-top: 1%;
       text-align: left;
       }
 
-/* COL STARTS HERE INLINE */
-#sky-col-10 {
+/* ROW STARTS HERE INLINE */
+#sky-row-10 {
   display: inline-block;
   vertical-align: top;
   width: 10%;
+  min-width: 150px;
   height: auto;
   min-height: 200px;
-  
-}
-#sky-col-20 {
+  background: rgb(230, 230, 230);
+  text-align: center;
+  }
+#sky-row-20 {
   display: inline-block;
   vertical-align: top;
   width: 20%;
+  min-width: 150px;
   height: auto;
   min-height: 200px;
-
+  background: rgb(230, 230, 230);
+text-align: center;
 }
-#sky-col-30 {
+#sky-row-30 {
   display: inline-block;
   vertical-align: top;
   width: 30%;
+  min-width: 250px;
   height: auto;
   min-height: 200px;
-
+  background: rgb(230, 230, 230);
+text-align: center;
 }
 
-#sky-col-40 {
+#sky-row-40 {
   display: inline-block;
   vertical-align: top;
   width: 40%;
   height: auto;
   min-height: 200px;
-
+  background: rgb(230, 230, 230);
+text-align: center;
 }
 
-#sky-col-50 {
+#sky-row-50 {
   display: inline-block;
   vertical-align: top;
   width: 50%;
   height: auto;
   min-height: 200px;
-
+  background: rgb(230, 230, 230);
+text-align: center;
 }
 
-#sky-col-60 {
+#sky-row-60 {
   display: inline-block;
   vertical-align: top;
   width: 60%;
   height: auto;
   min-height: 200px;
-
+  background: rgb(230, 230, 230);
+text-align: center;
 }
 
-#sky-col-70 {
+#sky-row-70 {
   display: inline-block;
   vertical-align: top;
   width: 70%;
   height: auto;
   min-height: 200px;
-
+  background: rgb(230, 230, 230);
+text-align: center;
 }
 
-#sky-col-80 {
+#sky-row-80 {
   display: inline-block;
   vertical-align: top;
   width: 80%;
   height: auto;
   min-height: 200px;
-
+  background: rgb(230, 230, 230);
+text-align: center;
 }
 
-#sky-col-90 {
+#sky-row-90 {
   display: inline-block;
   vertical-align: top;
   width: 90%;
   height: auto;
   min-height: 200px;
-
+  background: rgb(230, 230, 230);
+text-align: center;
 }
 
-#sky-col-100 {
+#sky-row-100 {
   display: inline-block;
   vertical-align: top;
   width: 100%;
   height: auto;
   min-height: 200px;
-
+  background: rgb(230, 230, 230);
+text-align: center;
 }
