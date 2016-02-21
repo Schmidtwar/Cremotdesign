@@ -1,3 +1,6 @@
+## Changed id to class instead, id going to be for more unique request.
+Now when your going to use all the commands, you use . instead of #.
+
 ## Grid is added now - 2016-02-18
 Now can you use the Grid system. And added new color for the Navigation classic.
 The value is % of the width.
