@@ -5,7 +5,7 @@ Github: https://github.com/Schmidtwar/SkylishCSS
 
 
 /* CENTER THE GRID  */
-#main-grid-center {
+.main-grid-center {
   display: block;
   width: 100%;
   height: auto;
@@ -13,7 +13,7 @@ Github: https://github.com/Schmidtwar/SkylishCSS
   text-align: center;
   }
   /* MAKES GRID TO THE RIGHT */
-  #main-grid-right {
+  .main-grid-right {
     display: block;
     width: 100%;
     height: auto;
@@ -21,7 +21,7 @@ Github: https://github.com/Schmidtwar/SkylishCSS
     text-align: right;
     }
     /* MAKES GRID TO THE LEFT */
-    #main-grid-left {
+    .main-grid-left {
       display: block;
       width: 100%;
       height: auto;
@@ -30,7 +30,7 @@ Github: https://github.com/Schmidtwar/SkylishCSS
       }
 
 /* ROW STARTS HERE INLINE */
-#sky-row-10 {
+.sky-row-10 {
   display: inline-block;
   vertical-align: top;
   width: 10%;
@@ -40,7 +40,8 @@ Github: https://github.com/Schmidtwar/SkylishCSS
   background: rgb(230, 230, 230);
   text-align: center;
   }
-#sky-row-20 {
+
+.sky-row-20 {
   display: inline-block;
   vertical-align: top;
   width: 20%;
@@ -50,7 +51,8 @@ Github: https://github.com/Schmidtwar/SkylishCSS
   background: rgb(230, 230, 230);
 text-align: center;
 }
-#sky-row-30 {
+
+.sky-row-30 {
   display: inline-block;
   vertical-align: top;
   width: 30%;
@@ -61,7 +63,7 @@ text-align: center;
 text-align: center;
 }
 
-#sky-row-40 {
+.sky-row-40 {
   display: inline-block;
   vertical-align: top;
   width: 40%;
@@ -71,7 +73,7 @@ text-align: center;
 text-align: center;
 }
 
-#sky-row-50 {
+.sky-row-50 {
   display: inline-block;
   vertical-align: top;
   width: 50%;
@@ -81,7 +83,7 @@ text-align: center;
 text-align: center;
 }
 
-#sky-row-60 {
+.sky-row-60 {
   display: inline-block;
   vertical-align: top;
   width: 60%;
@@ -91,7 +93,7 @@ text-align: center;
 text-align: center;
 }
 
-#sky-row-70 {
+.sky-row-70 {
   display: inline-block;
   vertical-align: top;
   width: 70%;
@@ -101,7 +103,7 @@ text-align: center;
 text-align: center;
 }
 
-#sky-row-80 {
+.sky-row-80 {
   display: inline-block;
   vertical-align: top;
   width: 80%;
@@ -111,7 +113,7 @@ text-align: center;
 text-align: center;
 }
 
-#sky-row-90 {
+.sky-row-90 {
   display: inline-block;
   vertical-align: top;
   width: 90%;
@@ -121,7 +123,7 @@ text-align: center;
 text-align: center;
 }
 
-#sky-row-100 {
+.sky-row-100 {
   display: inline-block;
   vertical-align: top;
   width: 100%;
@@ -130,3 +132,5 @@ text-align: center;
   background: rgb(230, 230, 230);
 text-align: center;
 }
+
+/* COLUMN */
