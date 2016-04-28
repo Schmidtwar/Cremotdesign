@@ -1,5 +1,5 @@
 # SkylishCSS Framework 
-Version 0.03a -  Copyright by Creative,Motivation & Design // www.cremotdesign.com // @ 2016
+Version 0.5 -  Copyright by Creative,Motivation & Design // www.cremotdesign.com // @ 2016
 
 Framework that are easy too use and get that you need for your website. Buttons, Animation & Navigation & more. 
 This is a fully free framework that you only need to download and start using. It's easy and smooth commands for use.
