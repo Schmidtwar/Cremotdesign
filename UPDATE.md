@@ -16,16 +16,16 @@ Now can you use the Grid system. And added new color for the Navigation classic.
 The value is % of the width.
 EDIT: changed to row, instead of col.
 GRID:
-* class="sky-row-10"
-* class="sky-row-20"
-* class="sky-row-30"
-* class="sky-row-40"
-* class="sky-row-50"
-* class="sky-row-60"
-* class="sky-row-70"
-* class="sky-row-80"
-* class="sky-row-90"
-* class="sky-row-100"
+* class="sky-column-10"
+* class="sky-column-20"
+* class="sky-column-30"
+* class="sky-column-40"
+* class="sky-column-50"
+* class="sky-column-60"
+* class="sky-column-70"
+* class="sky-column-80"
+* class="sky-column-90"
+* class="sky-column-100"
 
 You should use: 
 
