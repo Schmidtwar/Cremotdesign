@@ -6,6 +6,7 @@ The Grid system works better, and you can choose width now with easy command wid
   * class="sky-space-35px"
   * class="sky-space-45px"
   
+
   // Width Settings can you write in any element. <body width="1920"> </body>
   * width="1920"
   * width="1366"
