@@ -1,3 +1,30 @@
+## Some Major Changes -- 2016-04-29
+The Grid system works better, and you can choose width now with easy command width="". Added break/space too.
+  Space/Breakers
+  * class="sky-space"
+  * class="sky-space-25px"
+  * class="sky-space-35px"
+  * class="sky-space-45px"
+  
+  // Width Settings can you write in any element. <body width="1920"> </body>
+  * width="1920"
+  * width="1366"
+  * width="1280"
+  * width="1680"
+  * width="1024"
+  * width="100%"
+  * width="90%"
+  * width="80%"
+  * width="70%"
+  * width="60%"
+  * width="50%"
+  * width="40%"
+  * width="30%"
+  * width="20%"
+  * width="10%"
+  
+  
+
 ## Some Animation added - 2016-04-28
   Now can you use some animations
   * class="skyani-radius"
