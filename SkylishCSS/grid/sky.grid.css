@@ -29,8 +29,8 @@ Github: https://github.com/Schmidtwar/SkylishCSS
       text-align: left;
       }
 
-/* ROW STARTS HERE INLINE */
-.sky-row-10 {
+/* column STARTS HERE INLINE */
+.sky-column-10 {
   display: inline-block;
   vertical-align: top;
   width: 10%;
@@ -41,7 +41,7 @@ Github: https://github.com/Schmidtwar/SkylishCSS
   text-align: center;
   }
 
-.sky-row-20 {
+.sky-column-20 {
   display: inline-block;
   vertical-align: top;
   width: 20%;
@@ -52,7 +52,7 @@ Github: https://github.com/Schmidtwar/SkylishCSS
 text-align: center;
 }
 
-.sky-row-30 {
+.sky-column-30 {
   display: inline-block;
   vertical-align: top;
   width: 30%;
@@ -63,7 +63,7 @@ text-align: center;
 text-align: center;
 }
 
-.sky-row-40 {
+.sky-column-40 {
   display: inline-block;
   vertical-align: top;
   width: 40%;
@@ -73,7 +73,7 @@ text-align: center;
 text-align: center;
 }
 
-.sky-row-50 {
+.sky-column-50 {
   display: inline-block;
   vertical-align: top;
   width: 50%;
@@ -83,7 +83,7 @@ text-align: center;
 text-align: center;
 }
 
-.sky-row-60 {
+.sky-column-60 {
   display: inline-block;
   vertical-align: top;
   width: 60%;
@@ -93,7 +93,7 @@ text-align: center;
 text-align: center;
 }
 
-.sky-row-70 {
+.sky-column-70 {
   display: inline-block;
   vertical-align: top;
   width: 70%;
@@ -103,7 +103,7 @@ text-align: center;
 text-align: center;
 }
 
-.sky-row-80 {
+.sky-column-80 {
   display: inline-block;
   vertical-align: top;
   width: 80%;
@@ -113,7 +113,7 @@ text-align: center;
 text-align: center;
 }
 
-.sky-row-90 {
+.sky-column-90 {
   display: inline-block;
   vertical-align: top;
   width: 90%;
@@ -123,7 +123,7 @@ text-align: center;
 text-align: center;
 }
 
-.sky-row-100 {
+.sky-column-100 {
   display: inline-block;
   vertical-align: top;
   width: 100%;
