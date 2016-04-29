@@ -1,9 +1,29 @@
-/* Version 0.03a
+/* Version 0.5
 Copyright by: Cremotdesign.com @ 2016
 Github: https://github.com/Schmidtwar/SkylishCSS
 */
 
 
+/* Breakers */
+.sky-space {
+  display: inline-block;
+  width: 100%;
+}
+.sky-space-25px {
+  display: inline-block;
+  width: 100%;
+  height: 25px;
+}
+.sky-space-35px {
+  display: inline-block;
+  width: 100%;
+  height: 35px;
+}
+.sky-space-45px {
+  display: inline-block;
+  width: 100%;
+  height: 45px;
+}
 /* CENTER THE GRID  */
 .main-grid-center {
   display: block;
@@ -29,6 +49,13 @@ Github: https://github.com/Schmidtwar/SkylishCSS
       text-align: left;
       }
 
+
+.sky-column-10, .sky-column-20, .sky-column-30,
+.sky-column-40, .sky-column-50, .sky-column-60,
+.sky-column-70, .sky-column-80, .sky-column-90,
+.sky-column-100 {
+  vertical-align: top;
+}
 /* column STARTS HERE INLINE */
 .sky-column-10 {
   display: inline-block;
@@ -132,5 +159,3 @@ text-align: center;
   background: rgb(230, 230, 230);
 text-align: center;
 }
-
-/* COLUMN */
